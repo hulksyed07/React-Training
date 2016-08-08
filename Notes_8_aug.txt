@@ -1,0 +1,139 @@
+European Computer Manufacturers association(ECMA)
+ECMAScript vs Javascript
+
+ECMAScript6 is only understood by IE(Edge),Chrome
+
+Angular is framework but react is not a framework
+
+React is just a library, Thats why we are bringing Redux
+
+Framework is just a set of rules which developer has to follow 
+
+Browser reads html line by line like xml
+
+At each request, only html page is sent in response.
+
+When the bowser reads the script tags then it loads the js and css files
+
+Transpiling: Converting for eg. ES6 code to ES5 code(It is source code to source code converter)
+
+DOM: (Document object Model)An object or an API that is exposed by the browser that allow your scripting languages to change,modify or work with the objects.
+
+document.getElementById
+
+$.get
+
+Virtual DOM: all the later modification that we do with React JS like setElement, then a virtual dom GETS CREATED IN the memory,then the old and virtual DOM is compared and then the chanege takes place on the actual page.
+
+JSX: Javascript Xml
+
+Unidirectionla data flow:
+
+Action -> Dispatcher -> Store -> View--	
+  |				      |
+   -------------<-------------------<-
+
+
+
+NodeJs(Ver6 or above),Starter Kit,NPM packages
+
+
+NOdeJs is like JVM. It is a virtual machine for javascript(It is a software that we need to install)
+
+NodeJS allows your javacript to run outside the browser. It shines in the server segment
+
+Two chrome plugins are required
+React Developer Tools
+Redux DevTools(Has a very cool feature called timetravel)
+
+StarterKit
+npm install
+npm start
+
+
+React is a library that helps us generate views. It follows a pattern known as component based design
+
+develop the application on a  component basis and not per page basis
+
+Carousel is an image slider
+
+
+		Tree of components:
+
+				App
+				 |
+		  ________________________________
+		  |       |        |              |
+		Navbar	List	Carousel	Deals
+			  |
+			Item			
+
+
+
+https://babeljs.io
+
+ECMAScript 6 is officially called ES2015
+
+Now the javascript will keep on updating its version evry year
+
+https://github.com/mathurkunal/react-redux-starter-kit.git
+
+
+ES6 Import export
+_________________
+
+Javascript Modules
+Each js file is a silo(Independent Unit)(Variables not accessible in the other JS file unless you explicitely mention that you want the variable to be accessible in other js file too)(Export it from one module and import it from another module)
+modules can be imported and exported
+Reusability
+
+
+
+Inside REact
+-------------
+
+index.js
+
+
+
+import React from 'react';
+
+const App = function(){
+	return <div></div>;
+}
+
+export default App;
+
+
+
+React Vs ReactDOM
+------------------
+
+React library has now split into two libaries: react and reactDOM
+
+React core library knows how to render & nest compponents
+
+ReactDOM do the work of pushing virtual DOM to actual DOM.
+
+
+
+
+
+Adding a component to the DOM
+------------------------------
+
+import React and ReactDOM
+
+Create component class
+
+Use ReactDOm's render method which accepts two arguments(what to render , where to render)
+
+
+
+
+
+
+
+
+
+
