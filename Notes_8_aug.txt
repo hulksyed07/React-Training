@@ -315,3 +315,10 @@ React-redux
 	Provider 			Connect
 
 Attaches app to store		Creates container components
+
+Routes definition: 
+www.xyz.com/
+www.xyz.com/about
+www.xyz.com/courses/:module/:id
+www.xyz.com/profile/:empid
+
